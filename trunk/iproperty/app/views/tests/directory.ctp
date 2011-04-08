@@ -11,16 +11,16 @@
                     <div class="articles">
                        <table border ="1" width ="100%">
                            <th>
-                               name
+                               ชื่อผู้เช่า
                            </th>
                            <th>
-                               address
+                               ที่อยู่ผู้เช่า
                            </th>
                            <th>
-                               phone
+                               หมายเลขโทรศัพท์
                            </th>
                            <th>
-                               fax
+                               หมายเลขโทรสาร
                            </th>
 
                            <?php
