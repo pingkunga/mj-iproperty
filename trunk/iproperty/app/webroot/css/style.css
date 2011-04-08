@@ -113,6 +113,12 @@ font-weight: bold;
 
 }
 
+.map {
+padding: 10px;
+text-align: center;
+
+}
+
 #footer {
 text-align: center;
 font-size: 11px;

@@ -5,12 +5,12 @@
  */
 
 ?>
-                    <h2><a href="#">Example of heading 1</a></h2>
+                    <h2><?php echo $html->image('images/directory_topic.jpg') ?></h2>
                     <div class="articles">
                        directory articles1-1
                        <br/>
                        <!--directory table-->
-                       <table border ="1" width ="110%">
+                       <table border ="1" width ="100%">
                            <th>
                                name
                            </th>
@@ -69,7 +69,8 @@
                     <h2><a href="#">Example of heading 2</a></h2>
                     <div class="articles">
                         <?php
-                         echo $html->link('insert','/backs/insert');
+                        echo $html->link('insert',array('action'=>'insert'));
+                        //echo '<a href="insert">Inserting</a>';
                          ?>
                     </div>
                 

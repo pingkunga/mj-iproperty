@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 class TestsController extends AppController{
-    var $uses = '';
+    var $uses = 'Directorys';
     function index(){
 
     }
@@ -12,7 +12,7 @@ class TestsController extends AppController{
 
     }
     function directory(){
-
+        $this->data = $this->Directorys->find('all');
     }
     function contact(){
 

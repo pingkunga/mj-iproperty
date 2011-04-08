@@ -11,8 +11,15 @@ class BacksController extends AppController{
     }
 
     function insert(){
-        $this->Directorys->save($this->data);
-        $this->redirect('/backs/index');
+        if(empty($this->data)){
+            //echo $this->redirect('/backs/insert');
+            //echo 'debug empty';
+        }
+        else{
+            $this->Directorys->save($this->data);
+            $this->redirect('/backs/index');
+            //echo 'debug not empty';
+        }
     }
     function edit($id = null){
         if(empty($this->data)){

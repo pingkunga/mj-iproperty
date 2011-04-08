@@ -11,7 +11,7 @@ echo $form->create();
         </td>
         <td>
             <?php
-            echo $form->input('name');
+            echo $form->input('name',array('label'=>''));
             ?>
         </td>
     </tr>
@@ -21,7 +21,7 @@ echo $form->create();
         </td>
         <td>
             <?php
-            echo $form->input('address');
+            echo $form->input('address',array('label'=>''));
             ?>
         </td>
     </tr>
@@ -31,7 +31,7 @@ echo $form->create();
         </td>
         <td>
             <?php
-            echo $form->input('phone');
+            echo $form->input('phone',array('label'=>''));
             ?>
         </td>
     </tr>
@@ -41,12 +41,19 @@ echo $form->create();
         </td>
         <td>
             <?php
-            echo $form->input('fax');
+            echo $form->input('fax',array('label'=>''));
+            ?>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            &nbsp;
+        </td>
+        <td>
+            <?php
+            echo $form->end('submit');
             ?>
         </td>
     </tr>
 
-        <?php
-echo $form->end('submit');
-?>
 </table>
