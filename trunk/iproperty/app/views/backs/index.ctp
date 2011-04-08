@@ -61,22 +61,16 @@
                                echo '</td>';
 
                                echo '</tr>';
+
                            }
                            ?>
                        </table>
-                       <!--directory table-->
-                        <br /><br />
-                        <img src="/iproperty/img/images/pic.jpg" alt="Example pic" style="border: 3px solid #ccc;" />
-                        <br /><br />
+                       <?php
+                       echo '<br />';
+                       echo $html->link('เพิ่มข้อมูล',array('action'=>'insert'));
+                       ?>
                         
-                    
-                    <h2><a href="#">Example of heading 2</a></h2>
-                    <div class="articles">
-                        <?php
-                        echo $html->link('insert',array('action'=>'insert'));
-                        //echo '<a href="insert">Inserting</a>';
-                         ?>
-                    </div>
+               
                 
 
                 
