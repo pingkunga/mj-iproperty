@@ -7,7 +7,7 @@
 ?>
 
 
-                    <h2><a href="#">Example of heading 1</a></h2>
+                    <h2><?php echo $html->image('images/contactus_topic.jpg') ?></h2>
                     <div class="articles">
                        contact us articles1-1
                         <br /><br />

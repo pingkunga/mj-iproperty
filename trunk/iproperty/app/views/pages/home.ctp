@@ -6,7 +6,7 @@
 
 ?>
 
-                    <h2><img src="/iproperty/img/images/home_topic.jpg" /></h2>
+                    <h2><?php echo $html->image('images/home_topic.jpg') ?></h2>
                     <div class="articles">
                         welcome to home
                         <br /><br />
