@@ -68,7 +68,7 @@
                         <br /><br />
                         <img src="/iproperty/img/images/pic.jpg" alt="Example pic" style="border: 3px solid #ccc;" />
                         <br /><br />
-                        directory articles1-2
+                        
                     
                     <h2><a href="#">Example of heading 2</a></h2>
                     <div class="articles">

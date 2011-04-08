@@ -28,7 +28,8 @@ class BacksController extends AppController{
 
            
             //echo 'debug not empty';
-            $this->render('view');
+            //$this->render('view');
+            $this->render('view','default');
     }
     function save(){
         if(!$this->Directorys->save($this->data)){
@@ -41,7 +42,7 @@ class BacksController extends AppController{
     }
     function edit($id = null){
         $this->data = $this->Directorys->findbyid($id);
-        $this->render('view');
+        $this->render('view','default');
     }
     function delete($id){
         $this->Directorys->delete($id);

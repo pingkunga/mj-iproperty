@@ -6,17 +6,17 @@
        echo '</h2>';
     }else{
        echo '<h2>';
-       //echo $html->image('images/insertdata_topic.jpg');
+       echo $html->image('images/edit_topic.jpg');
        echo '</h2>';
     }
-?>
-<?php
+
 echo $form->create(null,array('action'=>'save'));
 ?>
+<br />
 <table>
     <tr>
         <td>
-            Name
+            ชื่อผู้เช่า
         </td>
         <td>
             <?php
@@ -27,7 +27,7 @@ echo $form->create(null,array('action'=>'save'));
     </tr>
     <tr>
         <td>
-            Address
+            ที่อยู่ผู้เช่า
         </td>
         <td>
             <?php
@@ -38,7 +38,7 @@ echo $form->create(null,array('action'=>'save'));
     </tr>
     <tr>
         <td>
-            Phone
+            หมายเลขโทรศัพท์
         </td>
         <td>
             <?php
@@ -49,7 +49,7 @@ echo $form->create(null,array('action'=>'save'));
     </tr>
     <tr>
         <td>
-            Fax
+            หมายเลขโทรสาร
         </td>
         <td>
             <?php

@@ -18,11 +18,7 @@
                         <center><img src="/iproperty/img/images/pic.jpg" alt="Example pic" style="border: 3px solid #ccc;" /></center>
                         <br /><br />
                     <div class="articles">
-                        articles1-2
-                    </div>
-                    <h2>Example of heading 2</h2>
-                    <div class="articles">
-                        articles2-1
+                        คิดถึงความคุ้มค่า คิดถึงเบอร์ห้า ตั้งแต่เริ่มต้น
                     </div>
                 
 
