@@ -32,7 +32,7 @@
                             <?php echo $html->link('About Us', '/tests/aboutUs') ?>
                         </li>
                         <li><!--<a href="#">Product</a>-->
-                            <?php echo $html->link('Product', '/tests/Product') ?>
+                            <?php echo $html->link('Service', '/tests/Service') ?>
                         </li>
                         <li><!--<a href="#">Directory</a>-->
                             <?php echo $html->link('Directory', '/tests/directory') ?>
@@ -41,9 +41,6 @@
                             <?php echo $html->link('Contact Us', '/tests/contact') ?>
                         </li>
                         <br />
-<!--                        <li><!--<a href="#">Contact Us</a>
-                            <?php //echo $html->link('Admin', '/backs') ?>
-                        </li>-->
                     </ul>
 
 

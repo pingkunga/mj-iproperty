@@ -7,7 +7,7 @@
 ?>
 
 
-                    <h2><?php echo $html->image('images/product_topic.jpg') ?></h2>
+                    <h2><?php echo $html->image('images/service_topic.jpg') ?></h2>
                     <div class="articles">
                        product articles1-1
                         <br /><br />

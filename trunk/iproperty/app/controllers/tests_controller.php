@@ -8,7 +8,7 @@ class TestsController extends AppController{
     function index(){
 
     }
-    function product(){
+    function service(){
 
     }
     function directory(){
