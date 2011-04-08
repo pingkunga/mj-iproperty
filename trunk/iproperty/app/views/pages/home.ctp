@@ -9,6 +9,7 @@
                     <h2><?php echo $html->image('images/home_topic.jpg') ?></h2>
                     <div class="articles">
                         สะดวกกว่า ประหยัดกว่า การลงทุนสร้างโกดังเอง
+                    </div>
 
 
 
@@ -22,6 +23,7 @@
                         <br /><br />
                         <img src="/iproperty/img/images/pic.jpg" alt="Example pic" style="border: 3px solid #ccc;" />
                         <br /><br />
+                    <div class="articles">
                         articles1-2
                     </div>
                     <h2>Example of heading 2</h2>

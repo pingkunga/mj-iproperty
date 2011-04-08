@@ -107,6 +107,9 @@ font-weight: 600;
 }
 .articles {
 padding: 10px;
+font-size: 18px;
+font-weight: bold;
+font-family: Microsoft Sans Serif;
 }
 
 #footer {
