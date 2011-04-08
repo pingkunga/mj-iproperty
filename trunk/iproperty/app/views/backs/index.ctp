@@ -5,7 +5,9 @@
  */
 
 ?>
-                    <h2><?php echo $html->image('images/directory_topic.jpg') ?></h2>
+
+                    <h2><?php echo $html->image('images/homeback_topic.jpg') ?></h2>
+
                     <div class="articles">
                        directory articles1-1
                        <br/>
