@@ -15,7 +15,7 @@
                     <div>- การคมนาคมสะดวก ใกล้รถไฟฟ้าวงเวียนใหญ่</div>
                     <div>- บริการและเอาใส่ใจลูกค้าอย่างมืออาชีพ</div>
                         <br /><br />
-                        <img src="/iproperty/img/images/pic.jpg" alt="Example pic" style="border: 3px solid #ccc;" />
+                        <center><img src="/iproperty/img/images/pic.jpg" alt="Example pic" style="border: 3px solid #ccc;" /></center>
                         <br /><br />
                     <div class="articles">
                         articles1-2
