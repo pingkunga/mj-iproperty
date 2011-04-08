@@ -6,16 +6,24 @@
 class Directorys extends AppModel{
     var $validate = array(
         'name' => array(
-            'rule' => 'alphaNumeric' //คือ ประกอบไปด้วย ตัวอักษร+ตัวเลข
+            'rule' => 'alphaNumeric', //คือ ประกอบไปด้วย ตัวอักษร+ตัวเลข
+            'required' => 'true', //require field validator
+            'message' => 'ต้องใส่นะ'
         ),
         'address' => array(
-            'rule' => 'alphaNumeric'
+            'rule' => 'alphaNumeric', //คือ ประกอบไปด้วย ตัวอักษร+ตัวเลข
+            'required' => 'true', //require field validator
+            'message' => 'ต้องใส่นะ'
         ),
         'phone' => array(
-            'rule' => 'alphaNumeric'
+            'rule' => 'Numeric', //คือ ประกอบไปด้วย ตัวอักษร+ตัวเลข
+            'required' => 'true', //require field validator
+            'message' => 'ต้องใส่นะ'
         ),
         'fax' => array(
-            'rule' => 'alphaNumeric'
+            'rule' => 'Numeric', //คือ ประกอบไปด้วย ตัวอักษร+ตัวเลข
+            'required' => 'true', //require field validator
+            'message' => 'ต้องใส่นะ'
         )
     );
 }
