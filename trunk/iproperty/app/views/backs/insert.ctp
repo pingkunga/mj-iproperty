@@ -1,6 +1,6 @@
 <title>Insert Form</title>
 
-<h1>Inserting Form</h1>
+                    <h2><?php echo $html->image('images/insertdata_topic.jpg') ?></h2>
 <?php
 echo $form->create();
 ?>

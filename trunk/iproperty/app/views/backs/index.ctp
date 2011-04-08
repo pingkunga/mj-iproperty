@@ -14,43 +14,43 @@
                        <br/><br/>
                        </div>
                        <!--directory table-->
-                       <table border ="1" width ="100%">
-                           <th>
+                       <table width ="100%" class="talang">
+                           <th class="talang">
                                ชื่อผู้เช่า
                            </th>
-                           <th>
+                           <th class="talang">
                                ที่อยู่ผู้เช่า
                            </th>
                            <th>
                                หมายเลขโทรศัพท์
                            </th>
-                           <th>
+                           <th class="talang">
                                หมายเลขโทรสาร
                            </th>
-                           <th>
+                           <th class="talang">
                                จัดการ
                            </th>
                            <?php
                            foreach($this->data as $row){
                                echo '<tr>';
 
-                               echo '<td>';
+                               echo '<td class="talang">';
                                 echo $row['Directorys']['name'];
                                echo '</td>';
 
-                               echo '<td>';
+                               echo '<td class="talang">';
                                 echo $row['Directorys']['address'];
                                echo '</td>';
 
-                               echo '<td>';
+                               echo '<td class="talang">';
                                 echo $row['Directorys']['phone'];
                                echo '</td>';
 
-                               echo '<td>';
+                               echo '<td class="talang">';
                                 echo $row['Directorys']['fax'];
                                echo '</td>';
 
-                               echo '<td>';
+                               echo '<td class="talang">';
                                //echo $form->create();
                                 //echo $form->button('edit');
                                 //echo $form->button('delete');
