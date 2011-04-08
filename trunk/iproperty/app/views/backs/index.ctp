@@ -9,8 +9,9 @@
                     <h2><?php echo $html->image('images/homeback_topic.jpg') ?></h2>
 
                     <div class="articles">
-                       directory articles1-1
-                       <br/>
+                    <br />
+                    ตารางแสดงสมาชิกที่ติดต่อเช่าโกดัง
+                       <br/><br/>
                        <!--directory table-->
                        <table border ="1" width ="100%">
                            <th>

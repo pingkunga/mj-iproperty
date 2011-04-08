@@ -12,6 +12,18 @@ line-height: 20px;
 color: #435070;
 }
 
+table,th, td{
+border: 1px solid #22325a;
+border-collapse:collapse;
+}
+
+th
+{
+background-color:#22325a;
+color:white;
+text-align: center;
+}
+
 a {
 text-decoration: none;
 color: #425969;
