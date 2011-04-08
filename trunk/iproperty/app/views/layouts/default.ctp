@@ -41,9 +41,9 @@
                             <?php echo $html->link('Contact Us', '/tests/contact') ?>
                         </li>
                         <br />
-                        <li><!--<a href="#">Contact Us</a>-->
-                            <?php echo $html->link('Admin', '/backs') ?>
-                        </li>
+<!--                        <li><!--<a href="#">Contact Us</a>
+                            <?php //echo $html->link('Admin', '/backs') ?>
+                        </li>-->
                     </ul>
 
 

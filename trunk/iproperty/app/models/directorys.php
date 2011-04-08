@@ -8,31 +8,32 @@ class Directorys extends AppModel{
         'name' => array(
             'valid' => array(
                 'rule' => 'AlphaNumeric',
-                'message' => 'enter only alphaNum'
+                'message' => 'ใส่ตัวเลขเท่านั้น'
             ),
             'required' => array(
                 'rule' => 'notEmpty', //require field validator
-                'message' => 'must enter'
+                'message' => 'ห้ามเว้นช่องว่าง'
             )
         ),
         'address' => array(
             'valid' => array(
                 'rule' => 'AlphaNumeric',
-                'message' => 'enter only num'
+                'message' => 'ใส่ตัวเลขเท่านั้น'
             ),
             'required' => array(
                 'rule' => 'notEmpty', //require field validator
-                'message' => 'must enter'
+                'message' => 'ห้ามเว้นช่องว่าง'
             )
         ),
         'phone' => array(
             'valid' => array(
-                'rule' => 'Numeric',
-                'message' => 'enter only num'
+                //'rule' => 'Numeric',
+                'rule' => array('custom','/[0][1-9]{8}/i'),
+                'message' => 'ใส่เบอร์โทรศัพท์ เช่น 021234567'
             ),
             'required' => array(
                 'rule' => 'notEmpty', //require field validator
-                'message' => 'must enter'
+                'message' => 'ห้ามเว้นช่องว่าง'
             )
         ),
 //        'phone' => array(
@@ -42,12 +43,12 @@ class Directorys extends AppModel{
 //        ),
         'fax' => array(
             'valid' => array(
-                'rule' => 'Numeric',
-                'message' => 'enter only num'
+                'rule' => array('custom','/[0][1-9]{8}/i'),
+                'message' => 'ใส่เบอร์โทรศัพท์ เช่น 021234567'
             ),
             'required' => array(
                 'rule' => 'notEmpty', //require field validator
-                'message' => 'must enter'
+                'message' => 'ห้ามเว้นช่องว่าง'
             )
         )
     );
