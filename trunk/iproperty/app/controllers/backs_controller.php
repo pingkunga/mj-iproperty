@@ -10,7 +10,7 @@ class BacksController extends AppController{
         $this->data = $this->Directorys->find('all');
     }
 
-    function insert($id){
+    function insert(){
 //        if(empty($this->data)){
 //            //echo $this->redirect('/backs/insert');
 //            //echo 'debug empty';
