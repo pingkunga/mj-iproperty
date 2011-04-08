@@ -4,7 +4,8 @@
 }
 
 body {
-background: #fff;
+background: #000000;
+background-image: url(/iproperty/img/images/bg.jpg);
 font-family: Microsoft Sans Serif;
 font-size: 14px;
 line-height: 20px;

@@ -7,7 +7,10 @@
         <?php echo $html->css('style'); ?>
     </head>
     <body>
-
+<center>
+        <table>
+            <tr border="0" bgcolor="#ffffff">
+                <td>
         <div id="wrap">
 
             <div id="header">
@@ -49,6 +52,9 @@
                 ©2011 Iproperty
             </div>
         </div>
-
+                </td>
+            </tr>
+      </table>
+    </center>
     </body>
 </html>
