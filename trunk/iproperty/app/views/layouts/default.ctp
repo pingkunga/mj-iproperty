@@ -53,7 +53,7 @@
             <div style="clear: both;"> </div>
 
             <div id="footer">
-                ©2011 Iproperty
+                © 2011 All Rights Reserved | Iproperty
             </div>
         </div>
                 </td>
