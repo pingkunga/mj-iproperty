@@ -56,7 +56,7 @@
                                 //echo $form->button('delete');
                                 echo $html->link('edit','/backs/edit/'.$row['Directorys']['id']);
                                 echo '&nbsp;';
-                                echo $html->link('delete','/backs/delete/'.$row['Directorys']['id']);
+                                echo $html->link('delete','/backs/delete/'.$row['Directorys']['id'],null,'want to delete???');
                                 //echo $form->end();
                                echo '</td>';
 

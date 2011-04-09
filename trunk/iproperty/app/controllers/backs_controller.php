@@ -46,7 +46,8 @@ class BacksController extends AppController{
     }
     function delete($id){
         $this->Directorys->delete($id);
-        $this->redirect('/backs/index');
+        $this->setAction('index');
+        //$this->redirect('/backs/index');
     }
     
 }
