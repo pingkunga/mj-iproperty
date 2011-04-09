@@ -40,3 +40,8 @@
 2011-04-08 16:47:09 Warning: Warning (2): Missing argument 1 for BacksController::insert() in [C:\xampp\htdocs\iproperty\app\controllers\backs_controller.php, line 13]
 2011-04-08 16:59:26 Warning: Warning (2): Missing argument 1 for BacksController::insert() in [C:\xampp\htdocs\iproperty\app\controllers\backs_controller.php, line 13]
 2011-04-08 17:01:46 Warning: Warning (2): Missing argument 1 for BacksController::insert() in [C:\xampp\htdocs\iproperty\app\controllers\backs_controller.php, line 13]
+2011-04-09 12:47:16 Error: Fatal Error (256): ConnectionManager::getDataSource - Non-existent data source default in [C:\xampp\htdocs\iproperty\cake\libs\model\connection_manager.php, line 102]
+2011-04-09 12:57:14 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\iproperty\app\views\tests\directory.ctp, line 30]
+2011-04-09 13:18:57 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\iproperty\app\views\tests\directory.ctp, line 30]
+2011-04-09 13:19:14 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\iproperty\app\views\tests\directory.ctp, line 30]
+2011-04-09 13:24:03 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\iproperty\app\views\tests\directory.ctp, line 30]
