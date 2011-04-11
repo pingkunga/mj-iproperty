@@ -9,15 +9,38 @@
 
                     <h2><?php echo $html->image('images/service_topic.jpg') ?></h2>
                     <div class="articles">
-                       product articles1-1
-                        <br /><br />
-                        <img src="/iproperty/img/images/pic.jpg" alt="Example pic" style="border: 3px solid #ccc;" />
-                        <br /><br />
-                        product about us articles1-2
+                        รายละเอียดโครงการ
                     </div>
+                    <br/>
+                    พื้นที่เช่า:   อาคารเก็บสินค้า ขนาดประมาณ 1200 – 1300 ตร.ม./ยูนิต
+                    <br/>
+                    การคมนาคม: ใกล้นิคมอตุสหกรรมมาดตาพุด และ ท่าเรือแหลมฉบัง
+
+                       
+                    <div class="articles">
+                       โครงสร้างอาคาร 
+                    </div>
+                    <ul>
+                        <li>คอนกรีตเสริมเหล็ก</li>
+                        <li>ลดความแอดอัด ด้วยพัดลมระบายอากาศ</li>
+                        <li>ไม่มีเสาตรงกลาง สร้างความรำคาญ</li>
+                    </ul>
+                       <div class="articles">
+                       สาธารณูปโภค
+                    </div>
+                    <ul>
+                        <li> ระบบท่อระบายน้ำ รอบโครงการ</li>
+                        <li>ระบบไฟฟ้าแสงสว่าง ตามจุดรอบโครงการ</li>
+                        <li>พนักงานรักษาความสะอาด และระบบกำจัดขยะส่วนกลาง</li>
+                        <li>พนักงานรักษาความปลอดภัย 24 ชม. พร้อมกล้องวงจรปิดตรงทางเข้า-ออกของโครงการ</li>
+                        <li>ถนนหลักภายในโครงการ ลาดคอนกรีต กว้าง 12 เมตร เป็นทางวงกลมลดความแออัด บรรยากาศธรรมชาติร่มรื่น</li>
+                        <li>พื้นที่จอดรถ ด้านหน้าอาคาร สามารถจอดขนถ่ายสินค้าได้สะดวก</li>
+                        <li>โทรศัพท์สายตรง</li>
+                    </ul>
+                    <?php echo $html->image('images/PLAN.jpg') ?>
                     <h2><a href="#">Example of heading 2</a></h2>
                     <div class="articles">
-                        product pabout us articles2-1
+                       service article 2-1
                     </div>
                 
 

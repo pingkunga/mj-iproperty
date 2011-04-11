@@ -16,9 +16,15 @@
                         <br /><small><a href="http://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=12.715786,101.16138&amp;daddr=&amp;hl=th&amp;geocode=&amp;mra=dme&amp;mrsp=0&amp;sz=15&amp;sll=12.714949,101.163182&amp;sspn=0.019466,0.027595&amp;ie=UTF8&amp;ll=12.714949,101.163182&amp;spn=0.014652,0.018239&amp;z=15">ดูแผนที่ขนาดใหญ่ขึ้น</a></small>
                        </div>
                        <br /><br />
+                        <?php echo $html->link('แผนที่การเดินทาง', '/files/MAP.pdf') ?>
                         <br /><br />
                     </div>
                
-
+                     Address:
+                    บริษัท iproperties  จำกัด
+                    xxxx.
+                    โทร. 02-123-4567
+                    แฟกซ์. 02-1234567
+                        อีเมล์.
                 
 
