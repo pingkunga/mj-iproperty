@@ -26,6 +26,14 @@ color:white;
 text-align: center;
 }
 
+.data1{
+    padding-left : 50px;
+}
+
+.data2{
+    padding-left:35px;
+}
+
 a {
 text-decoration: none;
 color: #425969;
