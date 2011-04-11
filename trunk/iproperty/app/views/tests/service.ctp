@@ -9,7 +9,7 @@
 
                     <h2><?php echo $html->image('images/service_topic.jpg') ?></h2>
                     <!-- Pic -->
-
+                    <center><?php echo $html->image('images/PLAN.jpg') ?></center>
 
                     <!-- Part1 -->
                     <div class="articles">
@@ -60,7 +60,4 @@
                                </ul>
                             </td>
                        </tr>
-                    </table>
-                
-
-                
+                    </table>        
