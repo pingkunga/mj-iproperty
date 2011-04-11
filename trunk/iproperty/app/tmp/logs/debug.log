@@ -2,3 +2,4 @@
 2011-04-08 13:40:52 Debug: Notice (8): Undefined property: TestsController::$Directory in [D:\xampp\htdocs\iproperty\app\controllers\tests_controller.php, line 15]
 2011-04-08 16:08:01 Debug: Notice (8): Undefined index:  id in [D:\xampp\htdocs\iproperty\app\controllers\backs_controller.php, line 35]
 2011-04-08 16:08:07 Debug: Notice (8): Undefined index:  id in [D:\xampp\htdocs\iproperty\app\controllers\backs_controller.php, line 35]
+2011-04-11 16:59:28 Debug: Notice (8): Use of undefined constant _blank - assumed '_blank' in [C:\xampp\htdocs\iproperty\app\views\tests\contact.ctp, line 25]
