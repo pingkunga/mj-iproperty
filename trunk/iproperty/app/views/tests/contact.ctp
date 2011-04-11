@@ -25,7 +25,7 @@ echo $html->image("images/mag_icon.gif", array('width' => '30', 'height' => '30'
     <?php
     echo $html->image("images/pdf_icon.gif"
                     , array('width' => '30', 'height' => '30'));
-    ?><?php echo $html->link(' โหลดแผนที่แบบ pdf', '/files/MAP.pdf',array('target'=>'_blank')) ?>
+    ?><?php echo $html->link('โหลดแผนที่แบบ pdf', '/files/MAP.pdf',array('target'=>'_blank')) ?>
 </div>
 <br /><br />
 
