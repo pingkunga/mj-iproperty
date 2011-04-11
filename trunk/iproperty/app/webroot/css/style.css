@@ -6,6 +6,7 @@
 body {
 background: #000000;
 background-image: url(/iproperty/img/images/bg.jpg);
+background-attachment:fixed;
 font-family: Microsoft Sans Serif;
 font-size: 14px;
 line-height: 20px;
@@ -13,7 +14,7 @@ color: #435070;
 }
 
 table,th, td{
-border: 1px solid #22325a;
+border: 0px solid #22325a;
 border-collapse:collapse;
 padding:2px;
 }

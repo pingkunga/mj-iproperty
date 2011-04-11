@@ -9,50 +9,52 @@
 
                     <h2><?php echo $html->image('images/directory_topic.jpg') ?></h2>
                     <div class="articles">
-                        แสดงรายชื่อผู้ขอเช่าโกดัง
+                        ผู้ที่ไว้วางใจใช้บริการของ iproperty
+                    </div>            
+                        <table>
+                            <tr>
+                                <td><?php echo $html->image('images/logo_ksb.jpg') ?></td>
+                                <td>KSB Pumps Co., Ltd.</td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $html->image('images/logo_its.jpg') ?></td>
+                                <td>Intelligent Total Solution Co., Ltd.</td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $html->image('images/logo_honeywell.jpg') ?></td>
+                                <td>Honeywell Sysems (Thailand) Co., Ltd.</td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $html->image('images/logo_keb.jpg') ?></td>
+                                <td>Kaowna Electric and Business Co., Ltd.</td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $html->image('images/logo_mj.jpg') ?></td>
+                                <td>M.J. Bangkok Valve & Fitting Co., Ltd.</td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $html->image('images/logo_blank.jpg') ?></td>
+                                <td>Leo Valve Co., Ltd.</td>
+                            </tr>
+                            <tr>
+                                <td><?php echo $html->image('images/logo_samson.jpg') ?></td>
+                                <td>Samson Controls Co., Ltd.</td>
+                            </tr>
+                        </table>
+                    <div class="articles">
+                        บรรยากาศของ iproperty
                     </div>
-                    <br />
-                       <table border ="1" width ="100%">
-                           <th>
-                               ชื่อผู้เช่า
-                           </th>
-                           <th>
-                               ที่อยู่ผู้เช่า
-                           </th>
-                           <th>
-                               หมายเลขโทรศัพท์
-                           </th>
-                           <th>
-                               หมายเลขโทรสาร
-                           </th>
-
-                           <?php
-                           foreach($this->data as $row){
-                               echo '<tr>';
-
-                               echo '<td>';
-                                echo $row['Directorys']['name'];
-                               echo '</td>';
-
-                               echo '<td>';
-                                echo $row['Directorys']['address'];
-                               echo '</td>';
-
-                               echo '<td>';
-                                echo $row['Directorys']['phone'];
-                               echo '</td>';
-
-                               echo '<td>';
-                                echo $row['Directorys']['fax'];
-                               echo '</td>';
-
-                              
-
-                               echo '</tr>';
-                           }
-                           ?>
-                       </table>
-                        <br /><br />
+                        <br />
+                        <center><img src="/iproperty/img/images/ware1.jpg" style="border: 3px solid #ccc;" /></center>
+                        <br />
+                        <center><img src="/iproperty/img/images/ware2.jpg" style="border: 3px solid #ccc;" /></center>
+                        <br />
+                        <center><img src="/iproperty/img/images/ware3.jpg" style="border: 3px solid #ccc;" /></center>
+                        <br />
+                        <center><img src="/iproperty/img/images/ware4.jpg" style="border: 3px solid #ccc;" /></center>
+                        <br />
+                        <center><img src="/iproperty/img/images/ware5.jpg" style="border: 3px solid #ccc;" /></center>
+                        <br />
                 
 
                 

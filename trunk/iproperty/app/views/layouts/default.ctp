@@ -32,10 +32,13 @@
                             <?php echo $html->link('About Us', '/tests/aboutUs') ?>
                         </li>
                         <li><!--<a href="#">Product</a>-->
-                            <?php echo $html->link('Service', '/tests/Service') ?>
+                            <?php echo $html->link('Service', '/tests/service') ?>
                         </li>
                         <li><!--<a href="#">Directory</a>-->
                             <?php echo $html->link('Directory', '/tests/directory') ?>
+                        </li>
+                        <li><!--<a href="#">Directory</a>-->
+                            <?php echo $html->link('Gallery', '/tests/gallery') ?>
                         </li>
                         <li><!--<a href="#">Contact Us</a>-->
                             <?php echo $html->link('Contact Us', '/tests/contact') ?>

@@ -15,6 +15,9 @@ class TestsController extends AppController{
     function directory(){
        //$this->data = $this->Directorys->find('all');
     }
+        function gallery(){
+
+    }
     function contact(){
 
     }
