@@ -16,7 +16,7 @@ class TestsController extends AppController{
     function directory(){
         
     }
-        function gallery(){
+     function gallery(){
 
     }
     function contact(){
@@ -24,6 +24,9 @@ class TestsController extends AppController{
     }
    function aboutUs(){
 
+   }
+   function images(){
+       
    }
 }
 ?>

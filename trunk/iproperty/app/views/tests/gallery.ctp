@@ -5,8 +5,10 @@
  */
 
 ?>
-
-
+<?php
+echo $lightbox->img('images/ware1.jpg', 'images/ware1.jpg', 'กว่าจะได้...');
+?>
+                    <!--<a href="images/image-1.jpg" rel="lightbox" title="my caption">image #1</a>-->
                     <h2><?php echo $html->image('images/gallery_topic.jpg') ?></h2>
 
                         <br />
@@ -20,6 +22,4 @@
                         <br />
                         <center><img src="/iproperty/img/images/ware5.jpg" style="border: 3px solid #ccc;" /></center>
                         <br />
-                
-
-                
+                 

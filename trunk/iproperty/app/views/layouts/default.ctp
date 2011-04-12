@@ -4,6 +4,14 @@
         <title>::: iProperty ::: | Exclusive Warehouse for Rent!!</title>
         <meta http-equiv="Content-Language" content="English" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+        <?php
+        echo $this->Html->css('lightbox');
+        echo $this->Javascript->link('js/prototype', 'false');
+        echo $this->Javascript->link('js/scriptaculous.js?load=effects,builder', 'false');
+        echo $this->Javascript->link('js/lightbox', 'false');
+        ?>
+
         <?php echo $html->css('style'); ?>
     </head>
     <body>
@@ -60,5 +68,6 @@
             </tr>
       </table>
     </center>
+
     </body>
 </html>
