@@ -8,8 +8,10 @@
 
 
                     <h2><?php echo $html->image('images/service_topic.jpg') ?></h2>
-                    <!-- Pic -->
-                    <center><?php echo $html->image('images/PLAN.jpg') ?></center>
+                    <!-- Lightbox Pic -->
+                        <center>
+                            <?php echo $lightbox->img($this->webroot.'img/images/PLAN.jpg', $this->webroot.'img/images/PLAN_large.jpg', ''); ?>
+                        </center>
 
                     <!-- Part1 -->
                     <div class="articles">

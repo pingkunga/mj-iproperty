@@ -19,7 +19,9 @@
                         </ul>
                     </div>
                     <br />
-                        <center><img src="/iproperty/img/images/pic.jpg" alt="Example pic" style="border: 3px solid #ccc;" /></center>
+                        <center>
+                            <?php echo $html->image('images/pic.jpg') ?>
+                        </center>
                     <br /><br />
                 
 

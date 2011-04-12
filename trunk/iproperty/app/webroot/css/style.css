@@ -5,7 +5,7 @@
 
 body {
 background: #000000;
-background-image: url(/iproperty/img/images/bg.jpg);
+background-image: url(../img/images/bg.jpg);
 background-attachment:fixed;
 font-family: Microsoft Sans Serif;
 font-size: 14px;
@@ -50,7 +50,7 @@ width: 800px;
 
 #header {
 height: 110px;
-background: #fff url(/iproperty/img/images/header.jpg) no-repeat;
+background: #fff url(../img/images/header.jpg) no-repeat;
 
 }
 #header h1 { 
@@ -93,7 +93,7 @@ font-weight: bold;
 padding-left: 10px;
 height: 55px;
 line-height: 30px;
-background: #425969 url(/iproperty/img/images/header_topic.jpg);
+background: #425969 url(../img/images/header_topic.jpg);
 }
 .right h2 a {
 text-decoration: none;
@@ -113,7 +113,7 @@ margin: 10px 0 0 0;
 padding-left: 10px;
 height: 55px;
 line-height: 30px;
-background: #425969 url(/iproperty/img/images/header_topic.jpg);
+background: #425969 url(../img/images/header_topic.jpg);
 color: #fff;
 font-size: 13px;
 }
