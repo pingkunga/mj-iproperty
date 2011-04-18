@@ -30,7 +30,8 @@
                                     <?php echo $content_for_layout; ?>
                                 </div>
                                 <div class="left">
-
+                                    <h2><?php echo $html->image('images/dateandtime_topic.jpg') ?></h2>
+                                    <embed src=http://flash-clocks.com/free-flash-clocks-blog-topics/free-flash-clock-34.swf width=170 height=170 wmode=transparent type=application/x-shockwave-flash></embed>
                                     <h2><?php echo $html->image('images/navi_topic.jpg') ?></h2>
                                     <ul>
                                         <li><!--<a href="#">Home</a>-->
