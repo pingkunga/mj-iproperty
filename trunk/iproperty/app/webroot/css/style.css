@@ -7,7 +7,7 @@ body {
 background: #000000;
 background-image: url(../img/images/bg.jpg);
 background-attachment:fixed;
-font-family: Microsoft Sans Serif;
+font-family: MS Sans Serif;
 font-size: 14px;
 line-height: 20px;
 color: #435070;
@@ -37,10 +37,16 @@ text-align: center;
 a {
 text-decoration: none;
 color: #425969;
+border : 0px;
 }
 a:hover {
 text-decoration: underline;
 color: #293a46;
+border : 0px;
+}
+
+img {
+    border :1 px;
 }
 
 #wrap {
