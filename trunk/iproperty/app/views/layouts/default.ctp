@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <title>::: iProperty ::: | Exclusive Warehouse for Rent!!</title>
-        <meta http-equiv="Content-Language" content="English" />
+        <meta http-equiv="Content-Language" content="Thai" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
         <?php
@@ -16,7 +16,7 @@
     </head>
     <body>
         <center>
-            <table>
+            <table width="804">
                 <tr border="0" bgcolor="#ffffff">
                     <td>
                         <div id="wrap">
@@ -35,22 +35,22 @@
                                     <h2><?php echo $html->image('images/navi_topic.jpg') ?></h2>
                                     <ul>
                                         <li><!--<a href="#">Home</a>-->
-                                            <?php echo $html->link('Home', '/pages/home') ?>
+                                            <?php echo $html->link('Home', '/webs/home') ?>
                                         </li>
                                         <li><!--<a href="#">About Us</a>-->
-                                            <?php echo $html->link('About Us', '/tests/aboutUs') ?>
+                                            <?php echo $html->link('About Us', '/webs/aboutUs') ?>
                                         </li>
                                         <li><!--<a href="#">Product</a>-->
-                                            <?php echo $html->link('Service', '/tests/service') ?>
+                                            <?php echo $html->link('Service', '/webs/service') ?>
                                         </li>
                                         <li><!--<a href="#">Directory</a>-->
-                                            <?php echo $html->link('Directory', '/tests/directory') ?>
+                                            <?php echo $html->link('Directory', '/webs/directory') ?>
                                         </li>
                                         <li><!--<a href="#">Directory</a>-->
-                                            <?php echo $html->link('Gallery', '/tests/gallery') ?>
+                                            <?php echo $html->link('Gallery', '/webs/gallery') ?>
                                         </li>
                                         <li><!--<a href="#">Contact Us</a>-->
-                                            <?php echo $html->link('Contact Us', '/tests/contact') ?>
+                                            <?php echo $html->link('Contact Us', '/webs/contact') ?>
                                         </li>
                                         <br />
                                         <?php
@@ -68,7 +68,9 @@
                                                 fclose($ec_fsock);
                                             }
                                         ?>
-
+                                        <br />
+                                         <script language="javascript">function fbs_click() {u=location.href;t=document.title;window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(u)+'&t='+encodeURIComponent(t),'sharer','toolbar=0,status=0,width=626,height=436');return false;}</script><style> html .fb_share_link { padding:2px 0 0 20px; height:16px; background:url(http://static.ak.facebook.com/images/share/facebook_share_icon.gif?6:26981) no-repeat top left; }</style><a rel="nofollow" href="http://www.facebook.com/share.php?u=http://www.iproperty.co.th" onclick="return fbs_click()" target="_blank" class="fb_share_link">แบ่งปัน</a>
+                                        
                                     </ul>
 
 
@@ -78,9 +80,7 @@
                             <div style="clear: both;"> </div>
 
                             <div id="footer">
-                                © 2011 All Rights Reserved | Iproperty
-                            </div>
-                        </div>
+                                © 2011 All Rights Reserved | Iproperty <br /></div>
                     </td>
                 </tr>
             </table>
