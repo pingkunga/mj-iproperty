@@ -22,7 +22,7 @@
                         <center>
                             <?php echo $html->image('images/pic.jpg') ?>
                         </center>
-                    <br /><br />
-                
+                    <br />
+                    
 
                
