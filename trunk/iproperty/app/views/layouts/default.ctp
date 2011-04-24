@@ -4,7 +4,9 @@
         <title>::: iProperty ::: | Exclusive Warehouse for Rent!!</title>
         <meta http-equiv="Content-Language" content="Thai" />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <!--Ajax Loading Page-->
         <meta http-equiv="cache-control" content="no-cache"/>
+        <!--End Ajax Loading Page-->
 
         <?php
         //<!--jQuery SlideBar-->
@@ -13,7 +15,7 @@
         echo $this->Javascript->link('slide/sliding_effect.js', 'false');
         //<!--End jQuery SlideBar-->
         ?>
-
+        
         <?php       
         //Global CSS theme
         echo $html->css('style');
@@ -30,6 +32,7 @@
         echo $this->Javascript->link('lightbox/lightbox', 'false');
         //<!--End Prototype Light Box-->
         ?>
+       
 <!--         <script type="text/javascript">
              jQuery.noConflict();
              jQuery(document).ready(function () {
@@ -42,7 +45,7 @@
 //                
 //             });
          </script>-->
-<!--        jQuery ui config
+<!--        jQuery ui config-->
         <style type="text/css">
             /* ปรับขนาดตัวอักษรของข้อความใน tabs
             สามารถปรับเปลี่ยน รายละเอียดอื่นๆ เพิ่มเติมเกี่ยวกับ tabs
@@ -52,7 +55,7 @@
                 font-family:tahoma;
                 font-size:11px;
             }
-        </style>
+        </style><!--
         <script type="text/javascript">
             $(function(){
                 // แทรกโค้ต jquery
@@ -84,9 +87,13 @@
                             <br />
                             <center><?php echo $html->image('images/sorry.gif') ?></center>
                             
-
+                            
+                            
                             <div id="content" >
                                 <div  id="showInfo" class ="right">
+                                    <div>
+                                        <?php echo $html->image('ajax/loading.gif',array('id'=>'loading','style'=>'display:none','height'=>'64','width'=>'64')) ?>
+                                    </div>
                                     <?php echo $content_for_layout; ?>
                                 </div>
                                 <div class="left">

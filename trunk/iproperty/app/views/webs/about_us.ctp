@@ -6,15 +6,15 @@
 ?>
 <h2><?php echo $html->image('images/aboutus_topic.jpg') ?></h2>
 <!--Solving Conflict-->
-<script type="text/javascript">
+<!--<script type="text/javascript">
     jQuery.noConflict();
     jQuery(function() {
         jQuery( "#tabs" ).tabs();
     });
-</script>
+</script>-->
 <!--End Solving Conflict-->
 <!--Tab-->
-<br />
+<!--<br />
 <table>
     <tr>
         <td class="set_contain">
@@ -36,7 +36,7 @@
             </div>
         </td>
     </tr>
-</table>
+</table>-->
 <br /><br />
 
 
