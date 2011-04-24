@@ -1,12 +1,13 @@
 <h2><?php echo $html->image('images/dateandtime_topic.jpg') ?></h2>
 <embed width="170" height="170" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://www.swfstore.co.uk/uploads/c2264cc52e/clock.swf">
     <h2><?php echo $html->image('images/navi_topic.jpg') ?></h2>
+   
     <ul id="sliding-navigation">
         <li  class="sliding-element"><!--<a href="#">Home</a>-->
             <?php
             echo $ajax->link('Home',
                     array('controller' => 'webs', 'action' => 'home'),
-                    array('update' => 'showInfo')
+                    array('update' => 'showInfo','indicator' => 'loading')
             );
 //echo $html->link('Home', array('onclick'=>'loadPage("/webs/home");'))
             ?>
@@ -15,7 +16,7 @@
             <?php
             echo $ajax->link('About Us',
                     array('controller' => 'webs', 'action' => 'aboutUs'),
-                    array('update' => 'showInfo')
+                    array('update' => 'showInfo','indicator' => 'loading')
             );
 // echo $html->link('About Us', '/webs/aboutUs') ?>
         </li>
@@ -23,7 +24,7 @@
             <?php
             echo $ajax->link('Service',
                     array('controller' => 'webs', 'action' => 'service'),
-                    array('update' => 'showInfo')
+                    array('update' => 'showInfo','indicator' => 'loading')
             );
 //echo $html->link('Service', '/webs/service') ?>
         </li>
@@ -31,7 +32,7 @@
             <?php
             echo $ajax->link('Directory',
                     array('controller' => 'webs', 'action' => 'directory'),
-                    array('update' => 'showInfo')
+                    array('update' => 'showInfo','indicator' => 'loading')
             );
 // echo $html->link('Directory', '/webs/directory') ?>
         </li>
@@ -39,7 +40,7 @@
             <?php
             echo $ajax->link('Gallery',
                     array('controller' => 'webs', 'action' => 'gallery'),
-                    array('update' => 'showInfo')
+                    array('update' => 'showInfo','indicator' => 'loading')
             );
 // echo $html->link('Gallery', '/webs/gallery') ?>
         </li>
@@ -47,7 +48,7 @@
             <?php
             echo $ajax->link('Contact Us',
                     array('controller' => 'webs', 'action' => 'contact'),
-                    array('update' => 'showInfo')
+                    array('update' => 'showInfo','indicator' => 'loading')
                     
             );
 // echo $html->link('Contact Us', '/webs/contact') ?>
