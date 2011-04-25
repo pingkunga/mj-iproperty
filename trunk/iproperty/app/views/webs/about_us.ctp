@@ -1,8 +1,7 @@
 <?php
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+//    echo $this->Html->css('ui-lightness/jquery-ui-1.8.11.custom.css');
+//    echo $this->Javascript->link('jquery_ui/jquery-1.5.1.min.js', 'false');
+//    echo $this->Javascript->link('jquery_ui/jquery-ui-1.8.11.custom.min.js', 'false');
 ?>
 <h2><?php echo $html->image('images/aboutus_topic.jpg') ?></h2>
 <!--Solving Conflict-->
@@ -14,7 +13,8 @@
 </script>-->
 <!--End Solving Conflict-->
 <!--Tab-->
-<!--<br />
+ 
+<br />
 <table>
     <tr>
         <td class="set_contain">
@@ -34,9 +34,13 @@
                 ประธานบริษัท 
                 </div>
             </div>
+            <?=$ajax->tabs('tabs', array(
+                 'event' => 'mouseover'
+                 
+))?>
         </td>
     </tr>
-</table>-->
+</table>
 <br /><br />
 
 

@@ -14,9 +14,14 @@
         echo $this->Javascript->link('slide/jquery.js', 'false');
         echo $this->Javascript->link('slide/sliding_effect.js', 'false');
         //<!--End jQuery SlideBar-->
-        ?>
-        
-        <?php       
+
+        //<!--jQuery LightBox-->
+        echo $this->Html->css('cssjLightBox/jquery.lightbox-0.5.css');
+        echo $this->Javascript->link('jLightBox/jquery.js');
+        //main jquery same as Slidebar
+        echo $this->Javascript->link('jLightBox/jquery.lightbox-0.5.js');
+        //<!--End jQuery LightBox-->
+           
         //Global CSS theme
         echo $html->css('style');
 
@@ -24,12 +29,12 @@
         echo $this->Html->css('ui-lightness/jquery-ui-1.8.11.custom.css');
         echo $this->Javascript->link('jquery_ui/jquery-1.5.1.min.js', 'false');
         echo $this->Javascript->link('jquery_ui/jquery-ui-1.8.11.custom.min.js', 'false');
-        //<!--End jQuery ui tab-->
+        //<!--End jQuery ui-->
         //<!--Prototype Light Box-->
-        echo $this->Html->css('lightbox');
-        echo $this->Javascript->link('lightbox/prototype', 'false');
-        echo $this->Javascript->link('lightbox/scriptaculous.js?load=effects,builder', 'false');
-        echo $this->Javascript->link('lightbox/lightbox', 'false');
+//        echo $this->Html->css('lightbox');
+//        echo $this->Javascript->link('lightbox/prototype', 'false');
+//        echo $this->Javascript->link('lightbox/scriptaculous.js?load=effects,builder', 'false');
+//        echo $this->Javascript->link('lightbox/lightbox', 'false');
         //<!--End Prototype Light Box-->
         ?>
        
@@ -92,7 +97,7 @@
                             <div id="content" >
                                 <div  id="showInfo" class ="right">
                                     <div>
-                                        <?php echo $html->image('ajax/loading.gif',array('id'=>'loading','style'=>'display:none','height'=>'64','width'=>'64')) ?>
+                                        <?php echo $html->image('ajax/loading.gif',array('id'=>'loading','style'=>'display:none','height'=>'32','width'=>'32')) ?>
                                     </div>
                                     <?php echo $content_for_layout; ?>
                                 </div>
