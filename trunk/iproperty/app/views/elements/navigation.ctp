@@ -66,6 +66,8 @@
 // echo $html->link('Contact Us', '/webs/contact') ?>
         </li>
     </ul>
+     <br />
+                <?php echo $html->image('images/qrcode.gif') ?>
     <br />
     <?php
             $ec_username = 'iproperty'; // <--- your username
