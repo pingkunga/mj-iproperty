@@ -1,9 +1,5 @@
 <?php
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
+   
 ?>
                     <!--<a href="images/image-1.jpg" rel="lightbox" title="my caption">image #1</a>-->
                     <h2><?php echo $html->image('images/gallery_topic.jpg') ?></h2>

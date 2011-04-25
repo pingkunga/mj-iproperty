@@ -1,19 +1,27 @@
 <?php
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
+    
 ?>
-
-
+<script type="text/javascript">
+ $(document).ready(function(){
+   $(".lightbox").lightBox();
+ })
+</script>
                     <h2><?php echo $html->image('images/directory_topic.jpg') ?></h2>
                     <div class="articles">
                         ขอขอบคุณผู้ที่ไว้วางใช้บริการจาก iproperty
-                    </div>            
+                    </div>
+                    <div id="gallery">
                         <table>
                             <tr>
-                                <td><?php echo $lightbox->img($this->webroot.'img/images/logo_ksb.jpg', $this->webroot.'img/images/ware3.jpg', 'KSB Pumps Co., Ltd.'); ?></td>
+                                <td>
+                                    <a href="http://farm2.static.flickr.com/1149/3170446847_456febccec.jpg?v=0" title="มหาวิหารแห่งชาติกรุงวอชิงตัน ดี.ซี. (Washington National Cathedral)">           <img src="http://farm2.static.flickr.com/1149/3170446847_456febccec_t.jpg"  />
+     </a>
+<!--                                    <a href="<?php echo $this->webroot.'img/images/ware3.jpg'?>" title="Images 1" class="lightbox">ภาพที่1</a>-->
+                                    
+                                    
+                            <?php
+                                        //echo $html->link($html->image('images/ware4.jpg'),array('ref'=>'lightbox'),array('escape' => false));
+                                //echo $lightbox->img($this->webroot.'img/images/logo_ksb.jpg', $this->webroot.'img/images/ware3.jpg', 'KSB Pumps Co., Ltd.'); ?></td>
                                 <td class="data1"><b>KSB Pumps Co., Ltd.</b></td>
                             </tr>
                             <tr>
@@ -41,6 +49,7 @@
                                 <td class="data1"><b>Samson Controls Co., Ltd.</b></td>
                             </tr>
                         </table>
+                    </div>
                 
 
                 

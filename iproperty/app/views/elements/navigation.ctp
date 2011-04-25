@@ -1,3 +1,15 @@
+<?php
+     //<!--jquery with ajax helper-->
+//     echo $this->Html->css('ajaxHelpercss/jquery-ui-1.8.4.custom.css');
+//     echo $this->Javascript->link('ajaxHelperjs/jquery-1.4.2.min.js', 'false');
+//     echo $this->Javascript->link('ajaxHelperjs/jquery-ui-1.8.4.custom.min.js', 'false');
+     echo $this->Html->css('ui-lightness/jquery-ui-1.8.11.custom.css');
+     echo $this->Javascript->link('jquery_ui/jquery-1.5.1.min.js', 'false');
+     echo $this->Javascript->link('jquery_ui/jquery-ui-1.8.11.custom.min.js', 'false');
+     //<!--End jquery ajax helper-->
+?>
+
+
 <h2><?php echo $html->image('images/dateandtime_topic.jpg') ?></h2>
 <embed width="170" height="170" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="http://www.swfstore.co.uk/uploads/c2264cc52e/clock.swf">
     <h2><?php echo $html->image('images/navi_topic.jpg') ?></h2>
